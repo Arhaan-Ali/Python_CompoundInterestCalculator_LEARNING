@@ -31,6 +31,5 @@ elif Compounding_frequency == "Q" :
 else:
     print(f"choose from the above given choice {Compounding_frequency} is not valid")
 R = Rate_Of_Interest / 100
-Time_years = Time_Period * Response
 Answer = round(principal * pow((1 + (R / Response)), Time_Period * Response), 2)
 print(f"Total Amount after Compounding is : ₹{Answer}")
